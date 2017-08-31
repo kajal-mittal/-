@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Sandesh</string>
+    <string name="string_email">Email</string>
+    <string name="string_password">Password</string>
+    <string name="string_login">Login</string>
+    <string name="string_phone_number">Phone Number</string>
+    <string name="string_signup">Signup</string>
+    <string name="string_verify">Verify</string>
+    <string name="string_otp">OTP</string>
+    <string name="string_name">Name</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="loading">Loading,please wait...</string>
+    <string name="please_wait">Please wait ...</string>
+    <string name="string_fail_to_signup">Failed to sign up.</string>
+    <string name="string_create_account">Create an account?</string>
+    <string name="string_email_password">Please fill email or password.</string>
+    <string name="string_error">Error</string>
+    <string name="string_enter_email">Please enter email.</string>
+    <string name="string_enter_password">Enter password!</string>
+    <string name="string_auth_failed">Authentication failed.</string>
+    <string name="string_user_successfully_added">User added successfully.</string>
+    <string name="string_something_wrong">Something went wrong</string>
+    <string name="string_forgot_password">Forgot Password?</string>
+    <string name="string_reset_password">Reset Password</string>
+    <string name="string_add">Add</string>
+    <string name="string_gmail_instructions">We have send you instructions on your mail id.</string>
+    <string name="string_valid_email">Please enter valid email.</string>
+    <string name="string_valid_password">Password should have minimum 6 characters.</string>
+    <string name="string_valid_name">Name is required.</string>
+    <string name="string_otp_verify">OTP Verify.</string>
+    <string name="string_fill_code">Please fill OTP.</string>
+</resources>
