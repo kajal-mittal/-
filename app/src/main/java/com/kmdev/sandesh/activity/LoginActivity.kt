@@ -27,6 +27,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener, LoginContract.L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        findViewsByID()
+
+    }
+
+    private fun findViewsByID() {
         mTvLogin = findViewById(R.id.tv_login) as TextView
         mTvSignup = findViewById(R.id.tv_signup) as TextView
         mTvFOrgotPassword = findViewById(R.id.tv_forgot_password) as TextView
@@ -37,8 +42,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener, LoginContract.L
         mTvLogin?.setOnClickListener(this)
         mTvFOrgotPassword?.setOnClickListener(this)
         mTvSignup?.setOnClickListener(this)
-
-
     }
 
     override fun onClick(p0: View?) {

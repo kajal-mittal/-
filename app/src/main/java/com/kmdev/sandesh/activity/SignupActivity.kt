@@ -105,7 +105,7 @@ class SignupActivity : AppCompatActivity(), View.OnClickListener, RegistrationCo
         Utils.dismissLoadingDialog()
         Toast.makeText(this, R.string.string_user_successfully_added, 1000).show()
         val intentVerify = Intent(this, OTPVerifyActivity::class.java)
-        intentVerify?.putExtra(Constants.ARG_PHONE_NUMBER, message)
+        intentVerify?.putExtra(Constants.ARG_VERFICATION_ID, message)
         startActivity(intentVerify)
 
     }

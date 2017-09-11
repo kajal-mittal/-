@@ -13,11 +13,11 @@ class MyFirebaseInstanceIdService : FirebaseInstanceIdService(){
     override fun onTokenRefresh() {
         super.onTokenRefresh()
         val token=FirebaseInstanceId.getInstance().token
-        sendRegisterToSenver(token)
+        sendRegisterToServer(token)
 
     }
 
-    private fun sendRegisterToSenver(token: String?) {
+    private fun sendRegisterToServer(token: String?) {
         if (token != null) {
             SharedPrefUtil(applicationContext).saveString(Constants.ARG_FIREBASE_TOKEN,token)
         }

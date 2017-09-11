@@ -34,7 +34,7 @@ class OTPVerifyActivity : AppCompatActivity(), View.OnClickListener, OTPVerifyCo
     private fun findViewsById() {
         mTvVerify = findViewById(R.id.tv_verify) as TextView
         mEtOTP = findViewById(R.id.edittext_otp) as EditText
-        verificationId = intent.getStringExtra(Constants.ARG_PHONE_NUMBER)
+        verificationId = intent.getStringExtra(Constants.ARG_VERFICATION_ID)
         mOTPVerifyPresenter = OTPVerifyPresenter(this)
         mTvVerify?.setOnClickListener(this)
     }

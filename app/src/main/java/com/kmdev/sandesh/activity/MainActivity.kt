@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View?) {
-        when(view?.id){
-            R.id.tv_add_quote->{
+        when (view?.id) {
+            R.id.tv_add_quote -> {
 
             }
         }

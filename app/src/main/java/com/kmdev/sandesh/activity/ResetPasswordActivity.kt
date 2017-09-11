@@ -54,8 +54,6 @@ class ResetPasswordActivity : AppCompatActivity(), View.OnClickListener, ResetPa
     override fun onResetSuccess(message: String) {
         Utils.dismissLoadingDialog()
         Toast.makeText(this, R.string.string_gmail_instructions, 1000).show()
-
-
     }
 
     override fun onResetFailure(message: String) {
